@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E0E8649-55F7-4898-825D-52935D893A9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CLCommom</RootNamespace>
+    <AssemblyName>CLCommom</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADQ.cs" />
+    <Compile Include="ANT.cs" />
+    <Compile Include="AQF.cs" />
+    <Compile Include="ATA.cs" />
+    <Compile Include="DRF.cs" />
+    <Compile Include="DSC.cs" />
+    <Compile Include="EMI.cs" />
+    <Compile Include="ENC.cs" />
+    <Compile Include="ESN.cs" />
+    <Compile Include="FACTURA.cs" />
+    <Compile Include="ICC.cs" />
+    <Compile Include="ICR.cs" />
+    <Compile Include="IEN.cs" />
+    <Compile Include="IIM.cs" />
+    <Compile Include="IRCAURepository.cs" />
+    <Compile Include="IRDCCRepository.cs" />
+    <Compile Include="IRDRIVERDATRepository.cs" />
+    <Compile Include="IRECCRepository.cs" />
+    <Compile Include="IRFLOGRepository.cs" />
+    <Compile Include="IRFPARAMRepository.cs" />
+    <Compile Include="IRFTASKRepository.cs" />
+    <Compile Include="IRFWRKGRLRepository.cs" />
+    <Compile Include="IRHCCRepository.cs" />
+    <Compile Include="IRHCCXRepository.cs" />
+    <Compile Include="IRRCCRepository.cs" />
+    <Compile Include="IRRCCTRepository.cs" />
+    <Compile Include="ITE.cs" />
+    <Compile Include="MdlBFE.cs" />
+    <Compile Include="MdlBQF.cs" />
+    <Compile Include="MdlBRC.cs" />
+    <Compile Include="CDA.cs" />
+    <Compile Include="MdlCDE.cs" />
+    <Compile Include="MdlCDM.cs" />
+    <Compile Include="MdlCDN.cs" />
+    <Compile Include="MdlCNP.cs" />
+    <Compile Include="MdlCRF.cs" />
+    <Compile Include="MdlCTS.cs" />
+    <Compile Include="MdlDFI.cs" />
+    <Compile Include="MdlDIT.cs" />
+    <Compile Include="MdlDRD.cs" />
+    <Compile Include="MdlFE1.cs" />
+    <Compile Include="MdlFE2.cs" />
+    <Compile Include="MdlFID.cs" />
+    <Compile Include="MdlFT1.cs" />
+    <Compile Include="MdlFT2.cs" />
+    <Compile Include="MdlIDE.cs" />
+    <Compile Include="MdlILE.cs" />
+    <Compile Include="MdlIMP.cs" />
+    <Compile Include="MdlIPA.cs" />
+    <Compile Include="MdlIRF.cs" />
+    <Compile Include="MdlISH.cs" />
+    <Compile Include="MdlITD.cs" />
+    <Compile Include="MdlLOT.cs" />
+    <Compile Include="MdlMAN.cs" />
+    <Compile Include="MdlMAT.cs" />
+    <Compile Include="MdlMEP.cs" />
+    <Compile Include="MdlMYM.cs" />
+    <Compile Include="MdlNCN.cs" />
+    <Compile Include="MdlNDR.cs" />
+    <Compile Include="MdlNRF.cs" />
+    <Compile Include="MdlOTC.cs" />
+    <Compile Include="MdlOVT.cs" />
+    <Compile Include="MdlPAY.cs" />
+    <Compile Include="MdlPCR.cs" />
+    <Compile Include="MdlPSI.cs" />
+    <Compile Include="MdlQFA.cs" />
+    <Compile Include="MdlQTA.cs" />
+    <Compile Include="MdlRBC.cs" />
+    <Compile Include="MdlRCP.cs" />
+    <Compile Include="MdlSNO.cs" />
+    <Compile Include="MdlTET.cs" />
+    <Compile Include="NOT.cs" />
+    <Compile Include="NOTA.cs" />
+    <Compile Include="ORC.cs" />
+    <Compile Include="RCAU.cs" />
+    <Compile Include="RCO.cs" />
+    <Compile Include="RDCC.cs" />
+    <Compile Include="RDRIVERDAT.cs" />
+    <Compile Include="RECC.cs" />
+    <Compile Include="REF.cs" />
+    <Compile Include="RFCTLKEY.cs" />
+    <Compile Include="RFFACCAB.cs" />
+    <Compile Include="RFFACDET.cs" />
+    <Compile Include="RFLOG.cs" />
+    <Compile Include="RFNCCAB.cs" />
+    <Compile Include="RFNCDET.cs" />
+    <Compile Include="RFPARAM.cs" />
+    <Compile Include="RFTASK.cs" />
+    <Compile Include="RFWRKGRL.cs" />
+    <Compile Include="RHCC.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RHCCEnTransito.cs" />
+    <Compile Include="RHCCX.cs" />
+    <Compile Include="RRCC.cs" />
+    <Compile Include="RRCCT.cs" />
+    <Compile Include="TAC.cs" />
+    <Compile Include="TCR.cs" />
+    <Compile Include="TDC.cs" />
+    <Compile Include="TII.cs" />
+    <Compile Include="TIM.cs" />
+    <Compile Include="TOT.cs" />
+    <Compile Include="ZCC.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
