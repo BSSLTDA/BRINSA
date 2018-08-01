@@ -47,3 +47,15 @@ C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Release\IBM.Da
 C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Release\CLDB2.csprojResolveAssemblyReference.cache
 C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Release\CLDB2.dll
 C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Release\CLDB2.pdb
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Release\CLDB2.dll
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Release\CLDB2.pdb
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Release\adodb.dll
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Release\CLCommom.dll
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Release\Dapper.dll
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Release\IBM.Data.DB2.iSeries.dll
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Release\CLCommom.pdb
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Release\Dapper.xml
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Release\IBM.Data.DB2.iSeries.xml
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Release\CLDB2.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Release\CLDB2.dll
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Release\CLDB2.pdb

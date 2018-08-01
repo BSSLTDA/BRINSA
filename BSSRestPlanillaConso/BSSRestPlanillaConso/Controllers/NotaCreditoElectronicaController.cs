@@ -176,8 +176,8 @@ namespace BSSRestPlanillaConso.Controllers
                 }
             }
 
-            TextWriter writer = new StreamWriter("C:\\Copia_Servidor\\Proyectos\\BRINSA\\BssFacturaElectronicaService\\" + NombreXml + ".xml");
-            //TextWriter writer = new StreamWriter("E:\\Sitios\\XMLNCE\\" + NombreXml + ".xml");
+            //TextWriter writer = new StreamWriter("C:\\Copia_Servidor\\Proyectos\\BRINSA\\BssFacturaElectronicaService\\" + NombreXml + ".xml");
+            TextWriter writer = new StreamWriter("E:\\Sitios\\XMLNCE\\" + NombreXml + ".xml");
             xs.Serialize(writer, mNOTA);
             writer.Close();
 
@@ -379,7 +379,8 @@ namespace BSSRestPlanillaConso.Controllers
                         descarga = wb.UploadString(url, "POST", rawSOAP.ToString());
                         var pdfbytes = Convert.FromBase64String(descarga.Substring((descarga.IndexOf("<downloadData>") + 14), (descarga.IndexOf("</downloadData>") - descarga.IndexOf("<downloadData>")) - 14));
                         //File.WriteAllBytes(@"C:\\Copia_Servidor\\Proyectos\\BRINSA\\BssFacturaElectronicaService\" + pref + NombreXml + ".pdf", pdfbytes);
-                        File.WriteAllBytes(@"E:\\Despachos_DB2\\ImagenesTransportes\\pdf\\FacturaPDF\\" + pref + NombreXml + ".pdf", pdfbytes);
+                        
+                        File.WriteAllBytes(@"E:\\Despachos_DB2\\ImagenesTransportes\\pdf\\NCPDF\\" + pref + NombreXml + ".pdf", pdfbytes);
                         res = "OK";
                         Thread.Sleep(15000);
                     }
