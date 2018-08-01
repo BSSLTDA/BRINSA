@@ -797,7 +797,7 @@ namespace BSSRestPlanillaConso.Controllers
                 mIIM = new IIM()
                 {
                     IIM_1 = "01",
-                    IIM_2 = (Det.DFVALTOT * decimal.Parse(Det.DFPORIMP)).ToString(),
+                    IIM_2 = (Det.DFVALTOT * decimal.Parse(Det.DFPORIMP)),
                     IIM_3 = modelC.FMONEDA,
                     IIM_4 = Det.DFVALTOT,
                     IIM_5 = modelC.FMONEDA,
@@ -807,7 +807,7 @@ namespace BSSRestPlanillaConso.Controllers
 
                 mTII = new TII()
                 {
-                    TII_1 = (Det.DFVALTOT * decimal.Parse(Det.DFPORIMP)).ToString(),
+                    TII_1 = (Det.DFVALTOT * decimal.Parse(Det.DFPORIMP)),
                     TII_2 = modelC.FMONEDA,
                     TII_3 = "false",
                     LMdlIIM = lmIIM

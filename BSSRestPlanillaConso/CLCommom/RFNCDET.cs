@@ -13,7 +13,7 @@ namespace CLCommom
         public decimal DVALTOT { get; set; }
         public decimal DFVALTOT { get; set; }
         public string DFPORIMP { get; set; }
-        public string DVALIMP { get; set; }
+        public decimal DVALIMP { get; set; }
     }
     public interface IRFNCDETRepository
     {
