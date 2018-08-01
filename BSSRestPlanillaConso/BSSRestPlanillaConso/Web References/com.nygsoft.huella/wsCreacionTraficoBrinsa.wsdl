@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://localhost:1001/webservice/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://localhost:1001/webservice/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://localhost:1001/webservice/">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <xsd:complexType name="datos">
+        <xsd:all>
+          <xsd:element name="codigo" type="xsd:int" />
+          <xsd:element name="mensaje" type="xsd:string" />
+        </xsd:all>
+      </xsd:complexType>
+      <xsd:complexType name="consolidado">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="SOAP-ENC:Array">
+            <xsd:attribute wsdl:arrayType="tns:datos[]" ref="SOAP-ENC:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="nuevoTraficoRequest">
+    <wsdl:part name="placa" type="xsd:string" />
+    <wsdl:part name="manifiesto" type="xsd:string" />
+    <wsdl:part name="ccConductor" type="xsd:string" />
+    <wsdl:part name="NombreConductor" type="xsd:string" />
+    <wsdl:part name="celular" type="xsd:string" />
+    <wsdl:part name="origen" type="xsd:int" />
+    <wsdl:part name="destino" type="xsd:string" />
+    <wsdl:part name="observacion" type="xsd:string" />
+    <wsdl:part name="fechaInicio" type="xsd:date" />
+    <wsdl:part name="horaInicio" type="xsd:time" />
+    <wsdl:part name="UrlGps" type="xsd:string" />
+    <wsdl:part name="usuarioGps" type="xsd:string" />
+    <wsdl:part name="ContrasenaGps" type="xsd:string" />
+    <wsdl:part name="Usuario" type="xsd:string" />
+    <wsdl:part name="Clave" type="xsd:string" />
+    <wsdl:part name="item1" type="xsd:string" />
+    <wsdl:part name="item2" type="xsd:string" />
+    <wsdl:part name="item3" type="xsd:string" />
+    <wsdl:part name="generadorCarga" type="xsd:string" />
+    <wsdl:part name="estado" type="xsd:int" />
+    <wsdl:part name="consolidado" type="xsd:int" />
+    <wsdl:part name="planilla" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="nuevoTraficoResponse">
+    <wsdl:part name="resultado" type="tns:consolidado" />
+  </wsdl:message>
+  <wsdl:message name="nuevoSeguimientoRequest">
+    <wsdl:part name="placa" type="xsd:string" />
+    <wsdl:part name="manifiesto" type="xsd:string" />
+    <wsdl:part name="mensaje" type="xsd:string" />
+    <wsdl:part name="fechaMensaje" type="xsd:date" />
+    <wsdl:part name="horaMensaje" type="xsd:time" />
+    <wsdl:part name="novedad" type="xsd:int" />
+    <wsdl:part name="estadoActual" type="xsd:int" />
+    <wsdl:part name="Usuario" type="xsd:string" />
+    <wsdl:part name="Clave" type="xsd:string" />
+    <wsdl:part name="Consolidado" type="xsd:int" />
+    <wsdl:part name="Planilla" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="nuevoSeguimientoResponse">
+    <wsdl:part name="resultado" type="tns:consolidado" />
+  </wsdl:message>
+  <wsdl:message name="eliminarTraficoRequest">
+    <wsdl:part name="placa" type="xsd:string" />
+    <wsdl:part name="manifiesto" type="xsd:string" />
+    <wsdl:part name="Usuario" type="xsd:string" />
+    <wsdl:part name="Clave" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="eliminarTraficoResponse">
+    <wsdl:part name="resultado" type="tns:consolidado" />
+  </wsdl:message>
+  <wsdl:message name="finalizarTraficoRequest">
+    <wsdl:part name="placa" type="xsd:string" />
+    <wsdl:part name="manifiesto" type="xsd:string" />
+    <wsdl:part name="Usuario" type="xsd:string" />
+    <wsdl:part name="Clave" type="xsd:string" />
+    <wsdl:part name="Consolidado" type="xsd:int" />
+  </wsdl:message>
+  <wsdl:message name="finalizarTraficoResponse">
+    <wsdl:part name="resultado" type="tns:consolidado" />
+  </wsdl:message>
+  <wsdl:portType name="Servicio ingreso nuevo traficoPortType">
+    <wsdl:operation name="nuevoTrafico">
+      <wsdl:input message="tns:nuevoTraficoRequest" />
+      <wsdl:output message="tns:nuevoTraficoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="nuevoSeguimiento">
+      <wsdl:input message="tns:nuevoSeguimientoRequest" />
+      <wsdl:output message="tns:nuevoSeguimientoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminarTrafico">
+      <wsdl:input message="tns:eliminarTraficoRequest" />
+      <wsdl:output message="tns:eliminarTraficoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="finalizarTrafico">
+      <wsdl:input message="tns:finalizarTraficoRequest" />
+      <wsdl:output message="tns:finalizarTraficoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Servicio ingreso nuevo traficoBinding" type="tns:Servicio ingreso nuevo traficoPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="nuevoTrafico">
+      <soap:operation soapAction="http://huella.nygsoft.com/WsTransporte/wsCreacionTraficoBrinsa.php/nuevoTrafico" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost:1001/webservice/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost:1001/webservice/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="nuevoSeguimiento">
+      <soap:operation soapAction="http://huella.nygsoft.com/WsTransporte/wsCreacionTraficoBrinsa.php/nuevoSeguimiento" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost:1001/webservice/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost:1001/webservice/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminarTrafico">
+      <soap:operation soapAction="http://huella.nygsoft.com/WsTransporte/wsCreacionTraficoBrinsa.php/eliminarTrafico" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost:1001/webservice/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost:1001/webservice/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="finalizarTrafico">
+      <soap:operation soapAction="http://huella.nygsoft.com/WsTransporte/wsCreacionTraficoBrinsa.php/finalizarTrafico" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://localhost:1001/webservice/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://localhost:1001/webservice/" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Servicio ingreso nuevo trafico">
+    <wsdl:port name="Servicio ingreso nuevo traficoPort" binding="tns:Servicio ingreso nuevo traficoBinding">
+      <soap:address location="http://huella.nygsoft.com/WsTransporte/wsCreacionTraficoBrinsa.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

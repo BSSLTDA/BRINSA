@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BSSRestPlanillaConso.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BSSRestPlanillaConso_com_nygsoft_huella_Servicio_ingreso_nuevo_trafico" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://huella.nygsoft.com/WsTransporte/wsCreacionTraficoBrinsa.php</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
