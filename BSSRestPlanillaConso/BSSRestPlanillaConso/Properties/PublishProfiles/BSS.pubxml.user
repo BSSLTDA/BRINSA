@@ -11,7 +11,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_Data/XmlDocument.xml">
-      <publishTime>07/27/2018 18:18:38</publishTime>
+      <publishTime>08/01/2018 09:00:27</publishTime>
     </File>
     <File Include="Areas/HelpPage/HelpPage.css">
       <publishTime>03/28/2017 16:33:25</publishTime>
@@ -77,7 +77,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>03/28/2017 16:33:02</publishTime>
     </File>
     <File Include="bin/ADODB.dll">
-      <publishTime>02/22/2018 14:40:38</publishTime>
+      <publishTime>11/02/2017 22:23:42</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>02/22/2013 08:43:40</publishTime>
@@ -86,22 +86,22 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
     <File Include="bin/BSSRestPlanillaConso.dll">
-      <publishTime>07/27/2018 18:20:01</publishTime>
+      <publishTime>08/01/2018 16:01:39</publishTime>
     </File>
     <File Include="bin/BSSRestPlanillaConso.pdb">
       <publishTime>03/09/2018 14:10:27</publishTime>
     </File>
     <File Include="bin/BSSRestPlanillaConso.XmlSerializers.dll">
-      <publishTime>07/27/2018 18:20:02</publishTime>
+      <publishTime>08/01/2018 16:01:40</publishTime>
     </File>
     <File Include="bin/CLCommom.dll">
-      <publishTime>07/27/2018 18:19:57</publishTime>
+      <publishTime>08/01/2018 15:51:37</publishTime>
     </File>
     <File Include="bin/CLCommom.pdb">
       <publishTime>03/09/2018 14:10:22</publishTime>
     </File>
     <File Include="bin/CLDB2.dll">
-      <publishTime>07/27/2018 18:19:57</publishTime>
+      <publishTime>08/01/2018 15:51:37</publishTime>
     </File>
     <File Include="bin/CLDB2.pdb">
       <publishTime>03/09/2018 14:10:23</publishTime>
@@ -314,7 +314,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>12/22/2017 10:37:00</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/24/2018 19:02:20</publishTime>
+      <publishTime>08/01/2018 15:40:47</publishTime>
     </File>
   </ItemGroup>
 </Project>

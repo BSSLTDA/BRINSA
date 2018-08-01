@@ -61,7 +61,7 @@ namespace CLCommon
         public string DFLAG04 { get; set; }
         [Display(Name = "Flag 05")]
         public string DFLAG05 { get; set; }
-        
+        public decimal IMPUESTOS { get; set; }
     }
 
     public interface IRFFACDETRepository

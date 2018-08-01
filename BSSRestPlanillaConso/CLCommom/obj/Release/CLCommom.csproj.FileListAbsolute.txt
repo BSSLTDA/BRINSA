@@ -19,3 +19,8 @@ C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLCommom\bin\Release\CLC
 C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLCommom\obj\Release\CLCommom.csprojResolveAssemblyReference.cache
 C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLCommom\obj\Release\CLCommom.dll
 C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLCommom\obj\Release\CLCommom.pdb
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLCommom\bin\Release\CLCommom.dll
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLCommom\bin\Release\CLCommom.pdb
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLCommom\obj\Release\CLCommom.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLCommom\obj\Release\CLCommom.dll
+C:\Users\USUARIO\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLCommom\obj\Release\CLCommom.pdb
