@@ -47,3 +47,17 @@ C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\IBM.Data
 C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Debug\CLDB2.csprojResolveAssemblyReference.cache
 C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Debug\CLDB2.dll
 C:\Copia_Servidor\Proyectos\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Debug\CLDB2.pdb
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\CLDB2.dll
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\CLDB2.pdb
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\adodb.dll
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\CLCommom.dll
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\Dapper.dll
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\IBM.Data.DB2.iSeries.dll
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\CLCommom.pdb
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\Dapper.xml
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\bin\Debug\IBM.Data.DB2.iSeries.xml
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Debug\CLDB2.csprojResolveAssemblyReference.cache
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Debug\CLDB2.csproj.CoreCompileInputs.cache
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Debug\CLDB2.dll
+C:\Users\ARodriguez\Documents\GitHub\BRINSA\BSSRestPlanillaConso\CLDB2\obj\Debug\CLDB2.pdb
